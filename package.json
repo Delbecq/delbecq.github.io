@@ -1,7 +1,7 @@
 {
   "name": "portfolio-ts",
   "private": true,
-  "homepage": "https://delbecq.github.io/delbecq.github.io",
+  "homepage": "https://delbecq.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
