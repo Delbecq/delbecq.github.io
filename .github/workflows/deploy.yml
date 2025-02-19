@@ -18,12 +18,19 @@ jobs:
         with:
           node-version: 20  # Use the Node.js version you need
 
+      - name: Debug Git Info
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          git remote -v
+          git branch -a
+
       - name: Install dependencies
         run: npm install
 
       - name: Build the project
         run: npm run build
-
+        
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
