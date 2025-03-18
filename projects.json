@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Portfolio React",
+    "description": "Un portfolio moderne en React et TypeScript.",
+    "image": "/images/portfolio-ts.webp",
+    "repoUrl": "https://github.com/Delbecq/delbecq.github.io"
+  },
+  {
+    "name": "Jeu de Rythme",
+    "description": "Reproduction d'un jeu de rythme avec l'ajout d'un editeur de niveau",
+    "image": "/images/rythm-game.webp",
+    "repoUrl": "https://github.com/Delbecq/rythm-game"
+  }
+]
